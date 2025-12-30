@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://unpkg.com/98.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+            crossorigin="anonymous"></script>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: #007A79;">
+    <div class="leftSideBar">
+        <div class="window">
+            <div class="title-bar">
+                <div class="title-bar-text">Links</div>
+                <!--</div>-->
+                <div class="title-bar-controls">
+                    <button aria-label="Close" id="linkClose"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <a href="https://howlongtobeat.com/user/Fireryyo" target="_blank">HTLB</a>
+                <br />
+                <a href="https://anilist.co/user/Fireryyo/" target="_blank">AniList</a>
+                <br />
+                <a href="#">Favourite Games</a>
+            </div>
+
+        </div>
+    </div>
+    <!--<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />-->
+    <div id="mainBody">
+        <!--<div id="leftAndMainSeperator">
+            <p></p>
+        </div>-->
+        <div id="contentBar">
+            <div class="window">
+                <div class="title-bar">
+                    <div class="title-bar-text">Fireryyo's Website</div>
+
+                    <div class="title-bar-controls">
+                        <button aria-label="Close" id="mainBodyClose"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                            <figure>
+                                <video src="images/untitled.webm" autoplay loop muted class="col-md-5"></video>
+                                <figcaption class="col-md-12" style="text-align: center;">Clip taken from <a href="https://www.youtube.com/watch?v=G5hScSFkib4" target="_blank">Rainy Boots - Inabakumori</a></figcaption>
+                            </figure>
+                    <div class="mainText">
+                        <p>Hey there~ I am Fireryyo, Here I talk about things I like! I mostly like Video games and anime!</p>
+                    </div>
+                    <div class="links">
+                        <div class="videoGameBtn">
+                        <video src="images/GameBtn.mp4" autoplay loop muted class="col-md-3 gameVideo"></video>
+                        <p class="gamesTextBtn">Games</p>
+                        <div id="favGameModal" class="modal">
+
+                        </div>
+
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/modalManage.js"></script>
+    </body>
+</html>

@@ -1,0 +1,91 @@
+body{
+    background-color: #007A79;
+}
+.leftSideBar{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow: auto;
+    width: 10%;
+    height: 80%;
+/*    display: none;*/
+}
+ #mainBody{
+/*    margin-left: 13%;*/
+    position: fixed;
+    top: 10px;
+    left: 20vw;
+    width: 60%;
+    padding: 10px, 10px, 10px, 10px;
+} 
+
+#leftAndMainSeperator{
+/*    margin: 0;
+    padding: 0;*/
+    position: absolute;
+    overflow: auto;
+    width: 0.5%;
+    height: 100%;
+    background-color: #007A79;
+    margin-left: 10%;
+/*    margin-right: 10%;*/
+}
+
+ .window-body{
+    text-align: center;
+} 
+p{
+    font-size: 1vw;
+}
+
+/*https://www.w3schools.com/howto/howto_css_modals.asp*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 75% !important;
+    height: 42.1822% !important;
+    overflow: auto;
+/*    padding-bottom: 23vw;*/
+    /*left: 0;
+    right: 0;*/
+    left: 12.5vw !important;
+    right: 12.5vw !important;
+    top: 25vh !important;
+    bottom: 25vh !important;
+}
+.fullScreenModal{
+    width: 100vw;
+    height: 100vw;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+    .window-body{
+                    height: 100vw;
+                }
+}
+
+.gameVideo {
+    position: relative;
+    filter: brightness(50%) blur(1px);
+/*    filter: blur(px);*/
+}
+.gamesTextBtn{
+    position: absolute;
+    bottom:  3vw;
+    left: 27vw;
+    color: white;
+    font-size: 2vw;
+}
+
+.gameVideo:hover{
+    cursor: pointer;
+}
+.gamesTextBtn:hover{
+    cursor: pointer;
+    color: red;
+}
