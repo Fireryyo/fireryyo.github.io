@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    $(".videoGameBtn").on("click", function () {
-        $("#favGameModal").toggle();
+    $(".linkBtn").on("click", function () {
+        $(this).children(".modal").toggle();
     });
 
 
@@ -27,5 +27,6 @@ $(document).ready(function () {
 
 
     $("#favGameModal").load("../games.html");
+    $("#toolsModal").load("../tools.html");
 
 });

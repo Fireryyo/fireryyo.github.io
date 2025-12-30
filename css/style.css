@@ -69,15 +69,15 @@ p{
                 }
 }
 
-.gameVideo {
+.gameVideo, .toolsImg {
     position: relative;
     filter: brightness(50%) blur(1px);
 /*    filter: blur(px);*/
 }
-.gamesTextBtn{
-    position: absolute;
-    bottom:  3vw;
-    left: 27vw;
+.TextBtn{
+    position: relative;
+    bottom:  5.5vw;
+/*    left: 27vw;*/
     color: white;
     font-size: 2vw;
 }
@@ -85,7 +85,18 @@ p{
 .gameVideo:hover{
     cursor: pointer;
 }
-.gamesTextBtn:hover{
+.TextBtn:hover{
     cursor: pointer;
     color: red;
 }
+
+.toolsText{
+    position: relative;
+    bottom: 5vw;
+    font-size: 1vw;
+    color: white;
+}
+    .toolsText:hover {
+        cursor: pointer;
+        color: red;
+    }
